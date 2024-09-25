@@ -3,7 +3,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="bg-[#F4F4F4] h-screen md:h-96  flex flex-col justify-center">
+    <div className="bg-[#F4F4F4] h-screen flex flex-col justify-center">
       <div className="grid grid-cols-1 lg:grid-cols-3 px-20 gap-7 md:gap-0">
         <div className="flex flex-col justify-center items-center">
           <img src="/giulia.png" alt="logo" className="w-72" />
