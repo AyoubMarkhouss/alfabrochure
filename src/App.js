@@ -23,7 +23,7 @@ function App() {
           <h1 className="semi text-2xl  ">Stelvio</h1>
           <button className=" bg-[#8f0c25] w-52 cursor-pointer md:mt-10 flex items-center justify-center">
             <a
-              href="/car.png"
+              href="/Brochures/Fiche_technique_Stelvio_MCA_2023.pdf"
               download
               className="semi h-12 text-sm text-white px-7 flex justify-center items-center"
             >
@@ -36,7 +36,7 @@ function App() {
           <h1 className="semi text-2xl  ">Tonale</h1>
           <button className=" bg-[#8f0c25] w-52 cursor-pointer md:mt-10 flex items-center justify-center">
             <a
-              href="/car.png"
+              href="/Brochures/Fiche_technique_Tonale_Diesel - 02 2023 x90.pdf"
               download
               className="semi h-12 text-sm text-white px-7 flex justify-center items-center"
             >
