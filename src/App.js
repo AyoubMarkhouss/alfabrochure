@@ -4,7 +4,20 @@ import "./App.css";
 function App() {
   return (
     <div className="bg-[#F4F4F4] h-screen flex flex-col justify-center">
-      <div className="grid grid-cols-1 lg:grid-cols-3 px-20 gap-7 md:gap-0">
+      <div className="grid grid-cols-1 lg:grid-cols-4 px-20 gap-7 md:gap-0">
+        <div className="flex flex-col justify-center items-center">
+          <img src="/junior-hybrida-copy2.png" alt="logo" className="w-72" />
+          <h1 className="semi text-2xl  ">Junior Ibrida</h1>
+          <button className=" bg-[#8f0c25] w-52 cursor-pointer md:mt-10 flex items-center justify-center">
+            <a
+              href="/Brochures/Fiche_technique_Junior_Ibrida.pdf"
+              download
+              className="semi h-12 text-sm text-white px-7 flex justify-center items-center"
+            >
+              TÉLÉCHARGER LA BROCHURE
+            </a>
+          </button>
+        </div>
         <div className="flex flex-col justify-center items-center">
           <img src="/giulia.png" alt="logo" className="w-72" />
           <h1 className="semi text-2xl  ">Giulia</h1>
